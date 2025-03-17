@@ -57,22 +57,35 @@ function dropdownFunction() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "Giancarlo, you are still 2 seconds a lap slower than Fernando.",
+  "No Michael no, that was so not right!",
+  "Must be the water.",
+  "Lets add that to the words of wisdom.",
+  "Toto, its called a motor race, OK?",
+  "We went car racing.",
+  "I'm hanging here like a cow.",
+  "He cut the chicken! He needs to give back the position.",
+  "Gentlemen a short view back to the past...",
+  "There's something loose between my legs.",
+  "bwoah",
+  "Hey... HEY! Steering Wheel!",
+  "Can you repeated the question?",
+  "Smooth operatooooooooor!",
+  "Valtteri, its James...",
+  "Leave me alone I know what I'm doing",
+  "I was having a shit.",
+  "There's nothing wrong with the car except that its on fire",
+  "OH MY GOD, WHAT DID WE JUST DO!",
+  "Nothing just an inchident.",
+  "No, Kimi, you will not have the drink.",
+  "To whom it may concern, fuck you.",
+  "We are checking...",
+  "I was forecast for a podium.",
+  "Theres a giant lizard on the track",
+  "I think Ericsson hit us",
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -87,13 +100,13 @@ function changeResults() {
   const paragraphEight = document.getElementById("haiku-3-2");
   const paragraphNine = document.getElementById("haiku-3-3");
   paragraph.innerText = getRandomFromList(fiveSyllables);
-  paragraphTwo.innerText = getRandomFromList(sevenSyllables);
+  paragraphTwo.innerText = getRandomFromList(fiveSyllables);
   paragraphThree.innerText = getRandomFromList(fiveSyllables);
   paragraphFour.innerText = getRandomFromList(fiveSyllables);
-  paragraphFive.innerText = getRandomFromList(sevenSyllables);
+  paragraphFive.innerText = getRandomFromList(fiveSyllables);
   paragraphSix.innerText = getRandomFromList(fiveSyllables);
   paragraphSeven.innerText = getRandomFromList(fiveSyllables);
-  paragraphEight.innerText = getRandomFromList(sevenSyllables);
+  paragraphEight.innerText = getRandomFromList(fiveSyllables);
   paragraphNine.innerText = getRandomFromList(fiveSyllables);
 }
 buttonHaiku.addEventListener("click", changeResults);
@@ -105,13 +118,108 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "Abomasnow",
+  "Abra",
+  "Absol",
+  "Accelgor",
+  "Aegislash",
+  "Aerodactyl",
+  "Aggron",
+  "Aipom",
+  "Alakazam",
+  "Alcremie",
+  "Alomomola",
+  "Altaria",
+  "Amaura",
+  "Ambipom",
+  "Amoonguss", 
+  "Ampharos",
+  "Annihilape",
+  "Anorith",
+  "Appletun",
+  "Applin",
+  "Araquanid",
+  "Arbok",
+  "Arboliva", 
+  "Arcanine",
+  "Arceus", 
+  "Archaludon", 
+  "Archen",
+  "Archeops", 
+  "Arctibax",
+  "Arctovish",
+  "Arctozolt",
+  "Ariados",
+  "Armaldo",
+  "Armarouge",
+  "Aromatisse", 
+  "Aron",
+  "Arrokuda",
+  "Articuno", 
+  "Audino",
+  "Aurorus",
+  "Avalugg", 
+  "Axew",
+  "Azelf",
+  "Azumarill",
+  "Azurill", 
+  
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "Bagon",
+  "Baltoy",
+  "Banette",
+  "Barbaracle",
+  "Barboach",
+  "Barraskewda",
+  "Basculegion",
+  "Basculin",
+  "Bastiodon",
+  "Baxcalibur",
+  "Bayleef",
+  "Beartic",
+  "Beautifly",
+  "Beedrill",
+  "Beheeyem",
+  "Beldum",
+  "Bellibolt",
+  "Bellossom",
+  "Bellsprout",
+  "Bergmite",
+  "Bewear",
+  "Bibarel",
+  "Bidoof",
+  "Binacle",
+  "Bisharp",
+  "Blacephalon",
+  "Blastoise",
+  "Blaziken",
+  "Blipbug",
+  "Blissey",
+  "Blitzle",
+  "Boldore",
+  "Boltund",
+  "Bombirdier",
+  "Bonsly",
+  "Bouffalant",
+  "Bounsweet",
+  "Braixen",
+  "Brambleghast",
+  "Bramblin",
+  "Braviary",
+  "Breloom",
+  "Brionne",
+  "Bronzong",
+  "Bronzor",
+  "Brute Bonnet",
+  "Bruxish",
+  "Budew",
+  "Buizel",
+  "Bulbasaur",
+  "Buneary",
+  "Bunnelby",
+  "Burmy",
+  "Butterfree",
+  "Buzzwole",
 
   "can i seek to vary my family court order",
   "ccs has no cctv",
@@ -156,15 +264,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "the fish, the chicken, the gnome, the frog, the cyborgs".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "spontaneously, promptly, rapidly, laughed until it, crawled until it, sneaked across and then, ran to, fought a insect to, ".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "combusted, crossed the road, exploded, exited the earth's atmosphere, ascended beyond reality, became god, destroyed the sun, conquered the moon".split(
       ","
     );
 // set up the counter
