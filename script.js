@@ -40,16 +40,16 @@ function addEval(evalText) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFunction() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addEval("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addEval("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addEval("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addEval("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addEval("🍟🥨🌮🥗🍱");
+  if (x === "McLaren") {
+    addEval("Lando Norris and Oscar Piastri");
+  } else if (x === "Mercedes") {
+    addEval("George Russell and Andrea Kimi Antonelli");
+  } else if (x === "Red Bull") {
+    addEval("Max Verstappen and Yuki Tsunoda");
+  } else if (x === "Ferrari") {
+    addEval("Lewis Hamilton and Charles Leclerc");
+  } else if (x === "Williams") {
+    addEval("Carlos Sainz and Alex Albon");
   }
 }
 //end of dropdown function
