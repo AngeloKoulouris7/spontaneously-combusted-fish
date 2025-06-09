@@ -51,7 +51,7 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("https://cdn.glitch.global/7f09f499-47eb-47d2-8715-d1f67a30e1e7/photo-1738996674608-3d2d9d8450a0.avif?v=1741744290008");
+  background-image: url("img/mountain.avif");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -81,7 +81,7 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: white;
-  background-image: url("https://cdn.glitch.global/1500d7f0-a2c8-489c-88a2-d7899293787b/notes-bg-black.png?v=1704432785084");
+  background-image: url("img/notes.png");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 375px;
@@ -94,7 +94,7 @@ h5 {
 /* Style the card for text messages */
 .cardText {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  background-image: url("https://cdn.glitch.global/1500d7f0-a2c8-489c-88a2-d7899293787b/txt-msg.png?v=1704432850592");
+  background-image: url("img/text.png");
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px;
@@ -115,7 +115,7 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: center;
   background-color: white;
-  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2Fstationery-155143_960_720.png?v=1618796683465"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
+  background-image: url("img/stationery.png"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
   background-position: center;
   background-size: cover;
   font-size: 28px;
